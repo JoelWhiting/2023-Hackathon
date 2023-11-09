@@ -1,0 +1,36 @@
+.header{
+  padding: 40px;
+  text-align: center;
+  background-color:#0000a8 ;
+  color: white;
+  font-size: 25px;
+  font-family:impact;
+}
+input[type=text]{
+  border-color: #ff6600;
+  background-color: #0000a8;
+  border-width: 5px;
+  border-style: solid;
+  height: 15px;
+  padding: 8px;
+  font-size: 12px;
+  font-family:Arial;
+  color: white;
+  width: 350px;
+  position: absolute;
+  top: -15px;
+  left: 960px;
+}
+.label{
+  color: white;
+  padding: 8px;
+}
+.Contacts{ background-color: #ff6600; 
+        border-color:#0000a8; 
+        padding:50px;
+        height: 400px;
+        text-emphasis-position:132x;
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        font-family:impact;}
