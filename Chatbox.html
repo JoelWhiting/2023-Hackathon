@@ -27,9 +27,10 @@
     function sendMessage() {
         var messageInput = document.getElementById("message-input");
         var message = messageInput.value;
+        var shuffled = message.split('').sort(function(){return 0.5-Math.random()}).join('');
         if (message.trim() !== "") {
             var chatBox = document.getElementById("chat-box");
-            chatBox.innerHTML += "<p>You: " + message + "</p>";
+            chatBox.innerHTML += "<p>You: " + shuffled + "</p>";
             messageInput.value = "";
         }
     }
